@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#maincta{
+    background-color: #1D3557;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-size: 50px;
+}
+#secondcta{
+    background-color: #457B9D;
+    color: white;
+    padding: 10px;
+
+}
+.mainkey-visual{
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 1920px;
+    height: 420px;
+}
+.inner-visual{
+    display: flex;
+    height: 343px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}   
+.activities{
+    text-align: center;
+    background-color: #F1FAEE;
+    padding: 40px 20px 40px 20px;
+}
+.design-img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.sub-activities{
+    display: flex;
+}
+.sub-concert{
+    margin: 0px 20px 0px 0px;
+    text-align: center;
+}
+.business-card{
+    margin: auto;
+    display: flex;
+    border-radius: 20px;
+    border-bottom: solid 5px;
+    width: 400px;
+    height: 294px;
+    background-color: #A8DADC;
+    padding: 20px;
+    margin: 40px;
+    text-align: center;
+}
+#profile{
+    border-radius: 10px;
+    width: 180px;
+    height: 248px;
+}
+#description{
+    font-style: italic;
+}
